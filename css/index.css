@@ -1,0 +1,143 @@
+/*导航条  自定义背景色*/
+.navbar-default {
+    background-color: #148cca;
+}
+
+/*导航条 导航 字体颜色 大小*/
+.navbar-default .navbar-nav > li > a {
+    font-size: 14px;
+    color: #fff;
+}
+
+/*导航条 LOGO*/
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-header a {
+    vertical-align: middle;
+}
+
+.navbar-header img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+/*注册登录 按钮*/
+.navbar-right:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.navbar-right div {
+    float: left;
+    padding: 0 10px;
+    line-height: 50px;
+    color: #fff;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+header > div {
+    margin-top: 50px;
+}
+
+/*轮播图*/
+/*轮播图大小*/
+.lunbo img {
+    width: 100%;
+}
+
+/*section 内容1*/
+section{
+    margin-bottom: 50px;
+}
+.center-text h4 {
+    font-size: 24px;
+    color: #686868;
+}
+.center-text p {
+    font-size: 14px;
+    color: #686868;
+}
+.center-text ul {
+    padding-left: 15px;
+}
+.center-text ul li {
+    font-size: 14px;
+    color: #686868;
+}
+
+/*图片定位  字体设置*/
+
+.img-text{
+    text-align:center;
+}
+
+.img-text h3 {
+    color: #2aaaec;
+    font-size: 20px;
+    text-align: center;
+}
+
+.img-text h4 {
+    color: #686868;
+    font-size: 14px;
+    text-align: center;
+}
+/*section 内容2*/
+/*新浪云，触手可及*/
+.video-img>img{
+    width: 100%;
+}
+/*模块*/
+.video-model h4{
+    font-size: 24px;
+    color: #686868;
+    padding: 20px 0;
+}
+
+.video-model .one{
+    text-align: center;
+    font-size: 14px;
+    color: #686868;
+}
+/*模块  成功案例*/
+.success-model{
+    /*到顶部20px*/
+    padding-top:20px;
+}
+.success-model img{
+    /*设置里面的img 宽度 100%*/
+    width: 100%;
+}
+.success-model .one{
+    /*设置里面的文字   bug不垂直居中*/
+    vertical-align: middle;
+    margin-left: 20px;
+    display: inline-block;
+}
+/*页尾*/
+footer dl dt{
+    color: #686868;
+    font-size: 20px;
+}
+footer dl dd{
+    color: blue;
+    font-size: 14px;
+}
+footer dl dd>img{
+   width: 90%;
+}
+footer>div:first-child{
+    border-bottom: 1px solid #ABABAB;
+}
+footer>div:last-child{
+
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
